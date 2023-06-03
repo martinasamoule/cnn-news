@@ -154,8 +154,11 @@ export default {
 :last-child{
   flex: 1 1 400px;
 }
-  .btnDiv ,.spinner{
-    margin-left: 40%;
+  .spinner{
+    margin-left: 45%;
+  }
+  .btnDiv {
+    margin-left: 38%;
   }
 }
 @media(max-width:1000px) and (min-width:601px){
