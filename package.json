@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "epic-spinners": "^2.0.0",
+    "firebase": "^8.3.2",
     "vue": "^3.3.2"
   },
   "devDependencies": {

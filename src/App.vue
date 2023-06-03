@@ -169,22 +169,31 @@ export default {
 :last-child{
   flex: 1 1 350px;
 }
-  .btnDiv , .spinner{
+  .btnDiv {
     margin-left: 35%;
+  }
+  .spinner{
+    margin-left: 45%;
   }
   .header{
     
   font-size: 1.5rem;
   }
 }
-@media(max-width:600px) and (min-width:501 ){
-  .btnDiv , .spinner{
-    margin-left: 30%;
+@media(max-width:600px) and (min-width:501px ){
+  .btnDiv {
+    margin-left: 26%;
+  }
+  .spinner{
+    margin-left: 44%;
   }
 }
 @media(max-width:500px){
-  .btnDiv , .spinner{
-    margin-left: 20%;
+  .btnDiv {
+    margin-left: 21%;
+  }
+  .spinner{
+    margin-left: 38%;
   }
 }
 
