@@ -124,6 +124,7 @@ export default {
   width: 150px !important;
   height: 37px;
   color: black;
+  background-color: white;
   font-size: 1rem ;
 }
 
@@ -137,10 +138,10 @@ export default {
   flex: 1 1 350px;
 }
 :first-child{
-  flex: 1 1 600px;
+  flex: 1 1 755px;
 }
 :last-child{
-  flex: 1 1 600px;
+  flex: 1 1 755px;
 }
 @media(max-width:1200px) and (min-width:1001px){
   .items>* {

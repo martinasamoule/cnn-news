@@ -51,7 +51,7 @@ export default {
 <style scoped>
 #photo{
     height: 250px;
-    margin: 3px;
+    margin: 5px;
 }
 .item {
     z-index: -5;
@@ -134,7 +134,6 @@ export default {
 
 .wrapper .image {
     height: 100%;
-    margin: 6px;
     position: relative;
 }
 
