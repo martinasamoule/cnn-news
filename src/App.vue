@@ -137,10 +137,10 @@ export default {
   flex: 1 1 350px;
 }
 :first-child{
-  flex: 0 1 608px;
+  flex: 1 1 600px;
 }
 :last-child{
-  flex: 1 1 350px;
+  flex: 1 1 600px;
 }
 @media(max-width:1200px) and (min-width:1001px){
   .items>* {

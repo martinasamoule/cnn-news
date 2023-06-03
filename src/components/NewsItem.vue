@@ -49,12 +49,18 @@ export default {
 
 
 <style scoped>
+#photo{
+    height: 250px;
+    margin: 3px;
+}
 .item {
     z-index: -5;
     display: flex;
     align-items: stretch;
     position: relative;
     flex-wrap: wrap;
+    height: 100%;
+    overflow: hidden;
 }
 
 .itemDescription {
@@ -123,6 +129,7 @@ export default {
 
 .wrapper {
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .wrapper .image {
